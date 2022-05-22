@@ -200,12 +200,20 @@ nav{
     @include flex('c', 'c');
     border-bottom: 3px solid transparent;
     transition: 0.2s;
-    padding: 1.875rem 0;
+    padding: 1.75rem 0;
     white-space: nowrap;
     position: relative;
     &.tg{
       &:after{
         display: none;
+      }
+      &.active{
+        color: #fff;
+        border-bottom: 3px solid transparent;
+      }
+      &:hover{
+        color: #fff;
+        border-bottom: 3px solid transparent;
       }
     }
     &:after{

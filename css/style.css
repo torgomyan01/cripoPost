@@ -131,11 +131,17 @@ nav {
     border-bottom: 3px solid transparent;
     -webkit-transition: 0.2s;
     transition: 0.2s;
-    padding: 1.875rem 0;
+    padding: 1.75rem 0;
     white-space: nowrap;
     position: relative; }
     nav .menu-item.tg:after {
       display: none; }
+    nav .menu-item.tg.active {
+      color: #fff;
+      border-bottom: 3px solid transparent; }
+    nav .menu-item.tg:hover {
+      color: #fff;
+      border-bottom: 3px solid transparent; }
     nav .menu-item:after {
       content: "";
       position: absolute;
