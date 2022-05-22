@@ -237,16 +237,18 @@ nav{
 
 .mobile-menu{
   width: 100%;
-  height: calc(100vh - #{$nav-height});
-  background: rgba(0, 0, 0, 0.85);
+  height: auto;
+  max-height: 0;
+  background: rgba(255, 255, 255, 1);
   backdrop-filter: blur(15px);
-  position: fixed;
-  left: -100%;
+  position: absolute;
+  left: 0;
   top: $nav-height;
   z-index: 10;
-  transition: 0.3s;
+  transition: 0.5s;
+  overflow: hidden;
   &.active{
-    left: 0;
+    max-height: 300px;
   }
 
   .mobile-menu-item{
@@ -254,13 +256,16 @@ nav{
     height: 60px;
     font-size: 1.5rem;
     @include flex('c', 'c');
-    color: #fff;
+    color: $c-black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.62);
     &.active{
-      background: #616302;
+      background: #686868;
+      a{
+        color: #fff;
+      }
     }
     a{
-      color: #fff;
+      color: $c-black;
     }
   }
 }
