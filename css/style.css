@@ -216,6 +216,9 @@ nav {
     color: #54595F;
     font-size: 1.5625rem;
     font-weight: 400; }
+    @media (max-width: 576px) {
+      .product-block h3 {
+        padding: 1.25rem 0.625rem; } }
   .product-block .data {
     width: 100%;
     height: auto;
