@@ -203,6 +203,11 @@ nav{
     padding: 1.875rem 0;
     white-space: nowrap;
     position: relative;
+    &.tg{
+      &:after{
+        display: none;
+      }
+    }
     &:after{
       content: "";
       position: absolute;

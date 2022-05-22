@@ -134,6 +134,8 @@ nav {
     padding: 1.875rem 0;
     white-space: nowrap;
     position: relative; }
+    nav .menu-item.tg:after {
+      display: none; }
     nav .menu-item:after {
       content: "";
       position: absolute;
