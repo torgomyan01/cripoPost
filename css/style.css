@@ -146,6 +146,9 @@ nav {
       width: 1px;
       height: 20px;
       background: rgba(255, 255, 255, 0.53); }
+      @media (max-width: 1200px) {
+        nav .menu-item:after {
+          display: none; } }
     nav .menu-item.active {
       color: #E5E903;
       border-bottom: 3px solid #E5E903; }

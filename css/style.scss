@@ -217,6 +217,9 @@ nav{
       width: 1px;
       height: 20px;
       background: rgba(255, 255, 255, 0.53);
+      @media (max-width: $xl){
+        display: none;
+      }
     }
     &.active{
       color: #E5E903;
