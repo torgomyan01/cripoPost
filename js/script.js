@@ -14,10 +14,12 @@ mobileMenu.on('click', function (){
         mobileMenu.html(`
             <i class="fa-solid fa-bars fs40"></i>
         `)
+        document.body.style.overflow = 'auto';
     } else {
         mobileMenuBlock.addClass(active);
         mobileMenu.html(`
             <i class="fa-solid fa-xmark-large fs40"></i>
-        `)
+        `);
+        document.body.style.overflow = 'hidden';
     }
 })
