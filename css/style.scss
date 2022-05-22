@@ -202,6 +202,17 @@ nav{
     transition: 0.2s;
     padding: 1.875rem 0;
     white-space: nowrap;
+    position: relative;
+    &:after{
+      content: "";
+      position: absolute;
+      right: -15px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1px;
+      height: 20px;
+      background: rgba(255, 255, 255, 0.53);
+    }
     &.active{
       color: #E5E903;
       border-bottom: 3px solid #E5E903;
@@ -246,6 +257,10 @@ nav{
   }
 }
 
+
+.c-black-grey{
+  color: #7A7A7A;
+}
 
 
 .product-block{
