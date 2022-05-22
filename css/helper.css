@@ -79,7 +79,7 @@
 .fs135 {
   font-size: 8.4375rem; }
 
-@media (min-width: 768px) {
+@media (min-width: xxl) {
   .fs6-xxl {
     font-size: 0.375rem; }
 
@@ -160,7 +160,7 @@
 
   .fs135-xxl {
     font-size: 8.4375rem; } }
-@media (min-width: 768px) {
+@media (min-width: xl) {
   .fs6-xl {
     font-size: 0.375rem; }
 
@@ -241,7 +241,7 @@
 
   .fs135-xl {
     font-size: 8.4375rem; } }
-@media (min-width: 768px) {
+@media (min-width: lg) {
   .fs6-lg {
     font-size: 0.375rem; }
 
@@ -322,7 +322,7 @@
 
   .fs135-lg {
     font-size: 8.4375rem; } }
-@media (min-width: 768px) {
+@media (min-width: md) {
   .fs6-md {
     font-size: 0.375rem; }
 
@@ -403,7 +403,7 @@
 
   .fs135-md {
     font-size: 8.4375rem; } }
-@media (min-width: 768px) {
+@media (min-width: sm) {
   .fs6-sm {
     font-size: 0.375rem; }
 

@@ -23,7 +23,7 @@ $ii: 5;
 }
 
 @each $sizeName, $size in $fontMedia {
-  @media (min-width: $md) {
+  @media (min-width: $sizeName) {
     @each $size in $fontSizes {
       .fs#{$size}-#{$sizeName} {
         font-size: #{$size / 16}rem;
