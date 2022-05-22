@@ -247,7 +247,7 @@ nav{
   width: 100%;
   height: auto;
   max-height: 0;
-  background: rgba(255, 255, 255, 1);
+  background: rgba(0, 0, 0, 0.85);
   backdrop-filter: blur(15px);
   position: absolute;
   left: 0;
@@ -264,7 +264,7 @@ nav{
     height: 60px;
     font-size: 1.5rem;
     @include flex('c', 'c');
-    color: $c-black;
+    color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.62);
     &.active{
       background: #686868;
@@ -273,7 +273,7 @@ nav{
       }
     }
     a{
-      color: $c-black;
+      color: #fff;
     }
   }
 }
@@ -345,7 +345,7 @@ footer{
     .text{
       height: 100%;
       @include flex('c', 'c');
-      font-size: 25px;
+      font-size: 1.5625rem;
       color: #fff;
     }
   }
